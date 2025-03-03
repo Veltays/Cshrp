@@ -1,0 +1,174 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED286902-E94B-49BC-AFE5-5CBE2D8FCED9}|Labo1\\Labo1.csproj|c:\\users\\grany\\onedrive\\hepl\\bac2\\q2\\programmation orient\u00E9e objet en c#\\laboratoire\\laboratoire\\csharp\\laboratoirecsharp_gran\\labo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED286902-E94B-49BC-AFE5-5CBE2D8FCED9}|Labo1\\Labo1.csproj|solutionrelative:labo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD1E352-2F96-4D6A-884D-1C53EE2FB252}|MathHelpers\\MathHelpers.csproj|c:\\users\\grany\\onedrive\\hepl\\bac2\\q2\\programmation orient\u00E9e objet en c#\\laboratoire\\laboratoire\\csharp\\laboratoirecsharp_gran\\mathhelpers\\mathhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD1E352-2F96-4D6A-884D-1C53EE2FB252}|MathHelpers\\MathHelpers.csproj|solutionrelative:mathhelpers\\mathhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A7E710-62F6-4A9B-B312-7D6EC1E68B4F}|MyShapeLibrary\\MyShapeLibrary.csproj|c:\\users\\grany\\onedrive\\hepl\\bac2\\q2\\programmation orient\u00E9e objet en c#\\laboratoire\\laboratoire\\csharp\\laboratoirecsharp_gran\\myshapelibrary\\carre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A7E710-62F6-4A9B-B312-7D6EC1E68B4F}|MyShapeLibrary\\MyShapeLibrary.csproj|solutionrelative:myshapelibrary\\carre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A7E710-62F6-4A9B-B312-7D6EC1E68B4F}|MyShapeLibrary\\MyShapeLibrary.csproj|c:\\users\\grany\\onedrive\\hepl\\bac2\\q2\\programmation orient\u00E9e objet en c#\\laboratoire\\laboratoire\\csharp\\laboratoirecsharp_gran\\myshapelibrary\\cercle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A7E710-62F6-4A9B-B312-7D6EC1E68B4F}|MyShapeLibrary\\MyShapeLibrary.csproj|solutionrelative:myshapelibrary\\cercle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A7E710-62F6-4A9B-B312-7D6EC1E68B4F}|MyShapeLibrary\\MyShapeLibrary.csproj|c:\\users\\grany\\onedrive\\hepl\\bac2\\q2\\programmation orient\u00E9e objet en c#\\laboratoire\\laboratoire\\csharp\\laboratoirecsharp_gran\\myshapelibrary\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A7E710-62F6-4A9B-B312-7D6EC1E68B4F}|MyShapeLibrary\\MyShapeLibrary.csproj|solutionrelative:myshapelibrary\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A7E710-62F6-4A9B-B312-7D6EC1E68B4F}|MyShapeLibrary\\MyShapeLibrary.csproj|c:\\users\\grany\\onedrive\\hepl\\bac2\\q2\\programmation orient\u00E9e objet en c#\\laboratoire\\laboratoire\\csharp\\laboratoirecsharp_gran\\myshapelibrary\\coordonn\u00E9e.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A7E710-62F6-4A9B-B312-7D6EC1E68B4F}|MyShapeLibrary\\MyShapeLibrary.csproj|solutionrelative:myshapelibrary\\coordonn\u00E9e.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A7E710-62F6-4A9B-B312-7D6EC1E68B4F}|MyShapeLibrary\\MyShapeLibrary.csproj|c:\\users\\grany\\onedrive\\hepl\\bac2\\q2\\programmation orient\u00E9e objet en c#\\laboratoire\\laboratoire\\csharp\\laboratoirecsharp_gran\\myshapelibrary\\ipolygon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A7E710-62F6-4A9B-B312-7D6EC1E68B4F}|MyShapeLibrary\\MyShapeLibrary.csproj|solutionrelative:myshapelibrary\\ipolygon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A7E710-62F6-4A9B-B312-7D6EC1E68B4F}|MyShapeLibrary\\MyShapeLibrary.csproj|c:\\users\\grany\\onedrive\\hepl\\bac2\\q2\\programmation orient\u00E9e objet en c#\\laboratoire\\laboratoire\\csharp\\laboratoirecsharp_gran\\myshapelibrary\\forme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A7E710-62F6-4A9B-B312-7D6EC1E68B4F}|MyShapeLibrary\\MyShapeLibrary.csproj|solutionrelative:myshapelibrary\\forme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A7E710-62F6-4A9B-B312-7D6EC1E68B4F}|MyShapeLibrary\\MyShapeLibrary.csproj|c:\\users\\grany\\onedrive\\hepl\\bac2\\q2\\programmation orient\u00E9e objet en c#\\laboratoire\\laboratoire\\csharp\\laboratoirecsharp_gran\\myshapelibrary\\iestdans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A7E710-62F6-4A9B-B312-7D6EC1E68B4F}|MyShapeLibrary\\MyShapeLibrary.csproj|solutionrelative:myshapelibrary\\iestdans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cercle.cs",
+              "DocumentMoniker": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MyShapeLibrary\\Cercle.cs",
+              "RelativeDocumentMoniker": "MyShapeLibrary\\Cercle.cs",
+              "ToolTip": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MyShapeLibrary\\Cercle.cs",
+              "RelativeToolTip": "MyShapeLibrary\\Cercle.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T11:04:47.424Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MathHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MathHelpers\\MathHelpers.cs",
+              "RelativeDocumentMoniker": "MathHelpers\\MathHelpers.cs",
+              "ToolTip": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MathHelpers\\MathHelpers.cs",
+              "RelativeToolTip": "MathHelpers\\MathHelpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T15:46:29.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Carre.cs",
+              "DocumentMoniker": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MyShapeLibrary\\Carre.cs",
+              "RelativeDocumentMoniker": "MyShapeLibrary\\Carre.cs",
+              "ToolTip": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MyShapeLibrary\\Carre.cs",
+              "RelativeToolTip": "MyShapeLibrary\\Carre.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T10:32:10.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEstDans.cs",
+              "DocumentMoniker": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MyShapeLibrary\\IEstDans.cs",
+              "RelativeDocumentMoniker": "MyShapeLibrary\\IEstDans.cs",
+              "ToolTip": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MyShapeLibrary\\IEstDans.cs",
+              "RelativeToolTip": "MyShapeLibrary\\IEstDans.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAlwBcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:19:26.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MyShapeLibrary\\Rectangle.cs",
+              "RelativeDocumentMoniker": "MyShapeLibrary\\Rectangle.cs",
+              "ToolTip": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MyShapeLibrary\\Rectangle.cs",
+              "RelativeToolTip": "MyShapeLibrary\\Rectangle.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:03:32.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Forme.cs",
+              "DocumentMoniker": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MyShapeLibrary\\Forme.cs",
+              "RelativeDocumentMoniker": "MyShapeLibrary\\Forme.cs",
+              "ToolTip": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MyShapeLibrary\\Forme.cs",
+              "RelativeToolTip": "MyShapeLibrary\\Forme.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T10:02:32.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Coordonn\u00E9e.cs",
+              "DocumentMoniker": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MyShapeLibrary\\Coordonn\u00E9e.cs",
+              "RelativeDocumentMoniker": "MyShapeLibrary\\Coordonn\u00E9e.cs",
+              "ToolTip": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MyShapeLibrary\\Coordonn\u00E9e.cs",
+              "RelativeToolTip": "MyShapeLibrary\\Coordonn\u00E9e.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:25:08.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\Labo1\\Program.cs",
+              "RelativeDocumentMoniker": "Labo1\\Program.cs",
+              "ToolTip": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\Labo1\\Program.cs",
+              "RelativeToolTip": "Labo1\\Program.cs",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAmwBABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T10:04:18.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPolygon.cs",
+              "DocumentMoniker": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MyShapeLibrary\\IPolygon.cs",
+              "RelativeDocumentMoniker": "MyShapeLibrary\\IPolygon.cs",
+              "ToolTip": "C:\\Users\\grany\\OneDrive\\HEPL\\BAC2\\Q2\\Programmation orient\u00E9e objet en C#\\Laboratoire\\Laboratoire\\Csharp\\LaboratoireCSharp_Gran\\MyShapeLibrary\\IPolygon.cs",
+              "RelativeToolTip": "MyShapeLibrary\\IPolygon.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T12:59:40.203Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
