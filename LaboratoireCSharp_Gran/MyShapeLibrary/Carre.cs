@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using MyShapeLibrary;
 
 namespace MyShapeLibrary
@@ -10,7 +11,7 @@ namespace MyShapeLibrary
      * un constructeur par défaut, 
      * la surcharge de la méthode ToString().
     */
-    public class Carre : Forme, IEstDans
+    public class Carre : Forme, IEstDans, IPolygon, IComparable<Carre>
     {
 
 
@@ -60,6 +61,21 @@ namespace MyShapeLibrary
                 if(PointAccroche.Y >= p.Y && (PointAccroche.Y - LongueurCot) <= p.Y)
                     return true ;
             return false;
+        }
+
+
+        public int CompareTo(Carre C2)
+        {
+            if (C2 == null)   // Si c'est null alors c forcement plus grand
+                return 1;
+
+            if (LongueurCot > C2.LongueurCot)
+                return 1;
+            else if (LongueurCot < C2.LongueurCot)
+                return -1;
+
+            return 0;
+
         }
     }
 }

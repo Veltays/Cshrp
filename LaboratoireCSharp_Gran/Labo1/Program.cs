@@ -5,10 +5,10 @@ using MathHelpers;
 
 namespace Labo1
 {
-
     internal class Program
     {
 
+        static List<Forme> ListeDeForme = new List<Forme>();
 
         static void Main(string[] args)
         {
@@ -16,17 +16,22 @@ namespace Labo1
             do
             {
                 Console.WriteLine("\n=== Menu ===");
-                Console.WriteLine("1. Créer un coordonner");
-                Console.WriteLine("2. Créer un carré");
-                Console.WriteLine("3. Créer un cercle");
-                Console.WriteLine("4. Créer un rectangle");
-                Console.WriteLine("5. Tester si un point est dans un carré");
-                Console.WriteLine("6. Tester si un point est dans un rectangle");
-                Console.WriteLine("7. Tester si un point est dans un Cercle");
-                Console.WriteLine("8. Tester NombrePolygone");
-                Console.WriteLine("9. Calculer Surface");
-                Console.WriteLine("10. IsBetween");
-                Console.WriteLine("11. Quitter");
+                Console.WriteLine("- 1. Créer un coordonner");
+                Console.WriteLine("- 2. Créer un carré");
+                Console.WriteLine("- 3. Créer un cercle");
+                Console.WriteLine("- 4. Créer un rectangle");
+                Console.WriteLine("- 5. Tester si un point est dans un carré");
+                Console.WriteLine("- 6. Tester si un point est dans un rectangle");
+                Console.WriteLine("- 7. Tester si un point est dans un Cercle");
+                Console.WriteLine("- 8. Tester NombrePolygone");
+                Console.WriteLine("- 9. Calculer Surface");
+                Console.WriteLine("- 10. IsBetween");
+                Console.WriteLine("- 11. Afficher Liste");
+                Console.WriteLine("- 12. ListeTrier");
+
+
+
+                Console.WriteLine("- 15. Quitter");
                 Console.Write("Votre choix : ");
 
                 choix = Console.ReadLine();
@@ -62,16 +67,22 @@ namespace Labo1
                         CalculeSurface();
                         break;
                     case "10":
-                        Console.WriteLine("IsBetween");
+                        EntreVal();
                         break;
                     case "11":
+                        AfficheListe();
+                        break;
+                    case "12":
+                        ListeTrier();
+                        break;
+                    case "15":
                         Console.WriteLine("Fin du programme.");
                         break;
                     default:
                         Console.WriteLine("Choix invalide, veuillez réessayer.");
                         break;
                 }
-            } while (choix != "9");
+            } while (choix != "15");
 
         }
         static void CreerCoordonner()
@@ -81,6 +92,7 @@ namespace Labo1
             //Création de coordonner
             Console.WriteLine("Coordonnee c1: " + c1.ToString());
             Console.WriteLine("Coordonnee c2 (defaut): " + c2.ToString());
+
         }
 
 
@@ -92,6 +104,14 @@ namespace Labo1
             Coordonnee c1 = new Coordonnee(10, 20);
             Carre Car1 = new Carre(c1, 10);
             Console.WriteLine(Car1.ToString());
+            ListeDeForme.Add(Car1);
+
+
+
+            Coordonnee c2 = new Coordonnee(0, 0);
+            Carre Car2 = new Carre(c1, 20);
+            Console.WriteLine(Car1.ToString());
+            ListeDeForme.Add(Car2);
 
         }
 
@@ -102,15 +122,26 @@ namespace Labo1
             Coordonnee c1 = new Coordonnee(10, 20);
             Cercle Cerc1 = new Cercle(c1, 5);
             Console.WriteLine(Cerc1.ToString());
+            ListeDeForme.Add(Cerc1);
 
+            Coordonnee c2 = new Coordonnee(0, 0);
+            Cercle Cerc2 = new Cercle(c1, 10);
+            Console.WriteLine(Cerc1.ToString());
+            ListeDeForme.Add(Cerc2);
         }
 
         static void CreerRectangle()
         {
             // Création d'un rectangle
-            Coordonnee c1 = new Coordonnee(10, 20);
-            Rectangle Rect1 = new Rectangle(c1, 5, 10);
+            Coordonnee r1 = new Coordonnee(10, 20);
+            Rectangle Rect1 = new Rectangle(r1, 5, 10);
             Console.WriteLine(Rect1.ToString());
+            ListeDeForme.Add(Rect1);
+
+            Coordonnee r2 = new Coordonnee(10, 20);
+            Rectangle Rect2 = new Rectangle(r2, 5, 10);
+            Console.WriteLine(Rect1.ToString());
+            ListeDeForme.Add(Rect2);
 
 
         }
@@ -264,14 +295,14 @@ namespace Labo1
         }
 
 
-        static void  TesterNbrPolygon()
+        static void TesterNbrPolygon()
         {
-            Coordonnee coord = new Coordonnee(0,0);
-            Carre testpolygonCarre = new Carre(coord,2);
+            Coordonnee coord = new Coordonnee(0, 0);
+            Carre testpolygonCarre = new Carre(coord, 2);
 
             Console.WriteLine($"Votre carré à {testpolygonCarre.NbSomments} de polygone");
 
-            Rectangle testpolygonRect = new Rectangle(coord, 2,3);
+            Rectangle testpolygonRect = new Rectangle(coord, 2, 3);
 
             Console.WriteLine($"Votre rectangle à {testpolygonRect.NbSomments} de polygone");
         }
@@ -311,16 +342,122 @@ namespace Labo1
             double.TryParse(Console.ReadLine(), out Max);
 
 
-            MathCalculation.isBetween( NombreX, Min, Max );
+            if (MathCalculation.isBetween(NombreX, Min, Max))
+                Console.WriteLine($"Votre nombre {NombreX} est bien entre {Min} et {Max}");
+            else
+                Console.WriteLine($"Votre nombre {NombreX} n'est pas entre {Min} et {Max}");
         }
 
+
+        static void AfficheListe()
+        {
+            Console.WriteLine("---------------------------------------------------------------");
+            Console.WriteLine("Affichage de tous les objets de la liste");
+            Console.WriteLine("---------------------------------------------------------------");
+            int i = 0;
+            foreach (Forme f in ListeDeForme)
+            {
+                i++;
+
+                Console.WriteLine($"{i} - {f.ToString()}");
+
+            }
+
+            Console.WriteLine("---------------------------------------------------------------");
+            Console.WriteLine("Affichage de tous les objets de la liste implémentant Ipolygon");
+            Console.WriteLine("---------------------------------------------------------------");
+            i = 0;
+            foreach (Forme f in ListeDeForme)
+            {
+                if (f is IPolygon)
+                {
+                    i++;
+                    Console.WriteLine($"{i} - {f.ToString()}");
+                }
+            }
+
+
+            Console.WriteLine("---------------------------------------------------------------");
+            Console.WriteLine("Affichage de tous les objets de la liste n'implémentant pas Ipolygon");
+            Console.WriteLine("---------------------------------------------------------------");
+            i = 0;
+            foreach (Forme f in ListeDeForme)
+            {
+                if (f is not IPolygon)
+                {
+                    i++;
+                    Console.WriteLine($"{i} - {f.ToString()}");
+                }
+            }
+
+        }
+
+
+        static void ListeTrier()
+        {
+            List<Carre> ListeDeFormeCarrer = new List<Carre>();
+
+            Coordonnee c1 = new Coordonnee(10, 20);
+            Carre Car1 = new Carre(c1, 10);
+            ListeDeFormeCarrer.Add(Car1);
+
+
+            Coordonnee c2 = new Coordonnee(0, 0);
+            Carre Car2 = new Carre(c2, 17);
+            ListeDeFormeCarrer.Add(Car2);
+
+            Coordonnee c3 = new Coordonnee(5, 5);
+            Carre Car3 = new Carre(c3, 4);
+            ListeDeFormeCarrer.Add(Car3);
+
+
+            Coordonnee c4 = new Coordonnee(15, 16);
+            Carre Car4 = new Carre(c4, 95);
+            ListeDeFormeCarrer.Add(Car4);
+
+
+            Coordonnee c5 = new Coordonnee(102, 10);
+            Carre Car5 = new Carre(c5, 15);
+            ListeDeFormeCarrer.Add(Car5);
+
+
+
+            Console.WriteLine("---------------------------------------------------------------");
+            Console.WriteLine("Affichage avant tri");
+            Console.WriteLine("---------------------------------------------------------------");
+
+            int i = 0;
+            foreach (Carre Carrer in ListeDeFormeCarrer)
+            {
+                i++;
+                Console.WriteLine($"{i} - {Carrer.ToString()}");
+            }
+
+            Console.WriteLine("---------------------------------------------------------------");
+            Console.WriteLine("Affichage après tri (des longueur uniquement)");
+            Console.WriteLine("---------------------------------------------------------------");
+            ListeDeFormeCarrer.Sort();
+
+             i = 0;
+            foreach (Carre Carrer in ListeDeFormeCarrer)
+            {
+                i++;
+                Console.WriteLine($"{i} - {Carrer.ToString()}");
+            }
+
+            Console.WriteLine("---------------------------------------------------------------");
+            Console.WriteLine("Affichage après tri (Des point d'accorche) OrderBy");
+            Console.WriteLine("---------------------------------------------------------------");
+
+
+
+
+
+
+
+
+
+
+        }
     }
-
-
 }
-
-
-
-// pour raccorder des libraires, 
-// click droit sur dependance des librairrie a gauche
-// ajouter une reference et je selectionne le projet

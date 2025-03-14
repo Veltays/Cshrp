@@ -1,0 +1,16 @@
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\bin\Debug\net8.0\MathHelpers.deps.json
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\bin\Debug\net8.0\MathHelpers.dll
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\bin\Debug\net8.0\MathHelpers.pdb
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\bin\Debug\net8.0\MyShapeLibrary.dll
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\bin\Debug\net8.0\MyShapeLibrary.pdb
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\obj\Debug\net8.0\MathHelpers.csproj.AssemblyReference.cache
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\obj\Debug\net8.0\MathHelpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\obj\Debug\net8.0\MathHelpers.AssemblyInfoInputs.cache
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\obj\Debug\net8.0\MathHelpers.AssemblyInfo.cs
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\obj\Debug\net8.0\MathHelpers.csproj.CoreCompileInputs.cache
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\obj\Debug\net8.0\MathHelpers.sourcelink.json
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\obj\Debug\net8.0\MathHelp.5FDF3003.Up2Date
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\obj\Debug\net8.0\MathHelpers.dll
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\obj\Debug\net8.0\refint\MathHelpers.dll
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\obj\Debug\net8.0\MathHelpers.pdb
+C:\Users\grany\OneDrive\HEPL\BAC2\Q2\Programmation orientée objet en C#\Laboratoire\Laboratoire\Csharp\LaboratoireCSharp_Gran\MathHelpers\obj\Debug\net8.0\ref\MathHelpers.dll

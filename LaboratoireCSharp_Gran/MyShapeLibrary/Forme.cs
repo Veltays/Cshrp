@@ -22,5 +22,7 @@ namespace MyShapeLibrary
         {
             PointAccroche = pointAccroche;
         }
+
+        
     }
 }
